@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/singhalpiyush161-blip/webhook/issues"
   },
-  "homepage": "https://github.com/singhalpiyush161-blip/webhook#readme"
+  "homepage": "https://github.com/singhalpiyush161-blip/webhook#readme",
+  "dependencies": {
+    "body-parser": "^2.4.0",
+    "express": "^5.3.0"
+  }
 }
