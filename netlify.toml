@@ -1,0 +1,9 @@
+[build]
+  command = "npm install"
+  functions = "functions"
+  publish = "."
+
+[[redirects]]
+  from = "/sensor-data"
+  to = "/.netlify/functions/webhook"
+  status = 200
