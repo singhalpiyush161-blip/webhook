@@ -68,4 +68,4 @@ export default async (req) => {
   return json({ error: "Method not allowed" }, 405);
 };
 
-export const config = { path: "/ph-data" };
+const store = getStore({ name: "ph-data", consistency: "strong" });
